@@ -7,7 +7,7 @@
     <title>Projet</title>
 </head>
 <body>
-   <form method="post" action="service.php">
+   <form method="post" action="service2.php">
             <label>username </label>
             <input  type="text" name="nom"><br><br>
 

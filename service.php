@@ -20,7 +20,6 @@ if(empty($users)==true){
    $flag = false;
 }
 
-
 $object = $connexion->prepare("SELECT * FROM projet WHERE email=:email");
 $object->execute(array("email" => $mail));
 $users=$object->fetchAll(PDO::FETCH_ASSOC);
@@ -41,8 +40,4 @@ if($flag==false and $flag2==false and $flag3==false){
 else{
     echo "Erreur ! Pseudo ou adresse mail déja existante ou incorrect !";
 }
-
-
-
-
 ?>

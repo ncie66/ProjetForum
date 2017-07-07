@@ -17,8 +17,9 @@
              <label>email </label>
             <input  type="text" name="mail"><br><br>
 
-        <input type="submit" class="Envoyer" value="Ajouter">
-        
-    </form>
+        <input type="submit" class="Envoyer" value="S'inscrire">
+        <a href="signIn.php">Sign In</a>
+    </form> 
+
 </body>
 </html>

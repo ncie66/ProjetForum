@@ -1,0 +1,14 @@
+body{
+    background-color: #81DAF5;
+    
+}
+hr{ height:30px; 
+    border:0px none; 
+    border-top:5px blue dashed;
+    background: #f3f3ff repeat-x center center;
+}
+.allo {
+  animation-duration: 2s;
+  animation-name: fadeIn;
+  animation-iteration-count: infinite;
+}

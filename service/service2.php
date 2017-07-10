@@ -27,13 +27,10 @@ if(empty($users)==true){
 }
 
 if($flag==true and $flag2==true){
-        echo "Bienvenue =)";
+        header("location: ../index.php?page=forum");
 }
 else{
-    echo "Erreur ! Pseudo ou mot de passe inexistant ou incorrect !";
+    header("location: ../index.php?page=signIn");
 }
-
-
-
 
 ?>

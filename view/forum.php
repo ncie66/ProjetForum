@@ -35,6 +35,7 @@
     <h1><center>  Catégories ! </center></h1>
 <div class="cat">
     <div class="cat1">
+        <!-- il faudrait que ces categories soit en base de données -->
         <p>HTML</p>
         <p>PHP</p>
         <p>CSS</p>

@@ -3,4 +3,15 @@ qu'on a vu dans le dossier 15_MVC
 
 Fait le dès le départ sinon tu vas Être perdu!
 
-Appel moi si tu captes Z.
+
+Alfonso Update: Il aurait fallu appeler ta table en base de donnée
+user car "projet" est un peu confus
+
+Aussi ta table doit absolument avoir un id qui va permettre d'identifier
+ton user. On ne prend pas le username ou l'email pour faire ça
+Aussi cet "id" permettra de linker le user avec ses posts et avec
+d'autres table qui indiqueront que le user est le propriétaire.
+
+par exemple dans une table sujets tu doit absolument avoir un id
+de l'utilisateur que tu appeleras userId INT(255)
+

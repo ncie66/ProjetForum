@@ -5,6 +5,13 @@ $password = $_POST['password'];
 $flag = true;
 $flag2 = true;
 
+/***
+ * Alfonso: Il faut faire de ces appels en base de données des fonctions
+ * qui seront dans model/fonctions.php
+ *
+ * et de même pour les autres services
+ */
+
 $connexion = new PDO(
     'mysql:host=localhost;dbname=projetforum;charset=UTF8','root','1234');
 $connexion->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);

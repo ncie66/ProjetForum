@@ -18,6 +18,11 @@ $('#envoi').click(function(e){
 });
 
 
+/**
+ * Alfonso: attention tu mélanges ici PHP et javascript
+ * ça ne marchera pas
+ */
+
 // on se connecte à notre base de données
 try
 {

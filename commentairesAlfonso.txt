@@ -15,3 +15,31 @@ d'autres table qui indiqueront que le user est le propriétaire.
 par exemple dans une table sujets tu doit absolument avoir un id
 de l'utilisateur que tu appeleras userId INT(255)
 
+/*************
+Alfonso: update
+
+Le projet n'est pas très avancé. Je pense que dans ton cas c'est un peut ma faute.
+En effet tu avais l'air d'avancer vite, et je pense que tu comprends très vite les choses et
+donc j'ai décidé de te laisser gérer toi même les choses.
+
+Peut-être je me trompe mais tu utilises la loi du moindre effort pour un résultat maximum.
+Ici tu as utiliser le moindre effort pour un résultat pas trop passable. Il ne faut pas se contenter
+de juste que l'application marche, il faut ordonner les choses pour anticiper une hausse du volume
+de la charge de travail. Si jamais d'autres programmeurs interviennent il faut se poser la question
+si on a bien agancé les choses.
+
+Par exemple pour les bitcoins, ce qui nous intéresse c'est d'avoir un maximum de force de calcul pour
+un minimum de ressources employées (electricité, carte graphique) par rapport au montant de crypto devises reçue
+et donc leur quotation.
+
+En programmation c'est pareil. Il faut utiliser voir ce qu'on peut réutiliser dans le code pour pas avoir à le
+retapper. Comme par exemple les fonctions!
+
+Pour bien programmer il faut transpirer pas mal de litres de sueur car on est obligé sans cesse
+de progresser, refactoriser l'existant et d'apprendre des choses nouvelles.
+
+Je croyais que tu avais bien compris le MVC et les requêtes SQL. Mais maintenant vu le dernier jours je m'interroge.
+N'hésite pas à me poser des questions.
+
+Bon la prochaine fois je t'aurais à l'oeil.
+
